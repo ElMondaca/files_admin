@@ -1,3 +1,6 @@
+<?php 
+ $url="HTTP://".$_SERVER['HTTP_HOST']."/gestion_documental/admin";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
