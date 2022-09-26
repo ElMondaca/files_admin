@@ -21,11 +21,11 @@ $url = "http://".$_SERVER['HTTP_HOST']."/gestion_documental";
       <ul class="navbar-nav me-auto">
       
       <li class="nav-item">
-        <a class="nav-link active " href="admin_menu.php">Gestión Documental</a>
+        <a class="nav-link active " href="file_menu.php">Gestión Documental</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link active" href="#">Gestión de Contrataciones</a>
+        <a class="nav-link active" href="hiring_menu.php">Gestión de Contrataciones</a>
       </li>
 
       <li class="nav-item">
