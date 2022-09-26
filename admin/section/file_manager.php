@@ -3,7 +3,7 @@ require('../template/header.php');
 ?>
 
 <div class="col-md-5">
- <form method="POST">
+ <form method="POST" enctype="multipart/form-data">
   <div class = "form-group">
   <label for="document">Document Numer/Date</label>
   <input type="text" class="form-control" name ="document" id="document" placeholder="Document Number/Date">
@@ -12,7 +12,8 @@ require('../template/header.php');
   <label for="detail">Details</label>
   <textarea class="form-control" id="detail" name="detail" placeholder="Details"></textarea>
   </div><br/>
-  <button type="submit" class="btn btn-primary">Sign In</button>
+   <button type="button" class="btn btn-primary">Save</button> 
+   <button type="button" class="btn btn-danger">Clear</button>
  </form>
  
  
