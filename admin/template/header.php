@@ -13,7 +13,7 @@ $url = "http://".$_SERVER['HTTP_HOST']."/gestion_documental";
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand">Files Manager</a>
+    <a class="navbar-brand" href="<?php echo $url;?>/admin">Files Manager</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
