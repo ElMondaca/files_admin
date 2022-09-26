@@ -26,7 +26,7 @@
         <a class="nav-link active " href="files.php">Gestión Documental</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#">Gestión de Contrataciones</a>
+        <a class="nav-link active" href="hirings.php">Gestión de Contrataciones</a>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="about_us.php">Departamento</a>
@@ -35,7 +35,7 @@
       <form class="d-flex">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-          <a class="nav-link active" href="admin/index.php">AdminDocumentos</a>
+          <a class="nav-link active" href="<?php echo $url;?>">AdminDocumentos</a>
           </li>
         </ul>
       </form>

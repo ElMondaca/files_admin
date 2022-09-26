@@ -21,15 +21,16 @@ $url = "http://".$_SERVER['HTTP_HOST']."/gestion_documental";
       <ul class="navbar-nav me-auto">
       
       <li class="nav-item">
-        <a class="nav-link active " href="file_menu.php">Gestión Documental</a>
+        <a class="nav-link active " href="<?php echo $url; ?>/admin/section/file_manager.php">Gestión Documental</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link active" href="hiring_menu.php">Gestión de Contrataciones</a>
+        <a class="nav-link active" href="<?php echo $url; ?>/admin/section/hiring_manager.php">Gestión de Contrataciones</a>
       </li>
 
+
       <li class="nav-item">
-        <a class="nav-link active" href="about_us.php">Departamento</a>
+        <a class="nav-link active" href="<?php echo $url; ?>/admin/section/logout.php">Desconectar</a>
       </li>
 
       </ul>
