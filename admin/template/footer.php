@@ -1,4 +1,5 @@
    </div>
-  </div>
- </body>
+</div>
+<script src="../js/bootstrap.js"></script>
+</body>
 </html>
